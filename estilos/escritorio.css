@@ -1,0 +1,40 @@
+@media (min-width:1000px){
+
+    .Contenedor{
+        display: flex;
+        flex-direction: row;
+        margin: 90px auto;
+        width: 75%;
+    }
+
+    .descripcion{
+        font-size: 15px;
+        line-height: 1.5;
+        margin-bottom: 70px;
+    }
+
+    .sedans{
+        border-radius: 0;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .luxury{
+        border-radius: 0;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .botonSedan{
+        width: 150px;
+    }
+
+    .botonSuvs{
+        width: 150px;
+    }
+
+    .botonLuxury{
+        width: 150px;
+    }
+
+}

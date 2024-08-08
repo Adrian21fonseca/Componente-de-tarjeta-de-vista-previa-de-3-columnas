@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.Contenedor{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.auto{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-family: Big Shoulders Display;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.descripcion{
+    color: hsla(0, 0%, 100%, 0.568);
+    font-weight: 400;
+    font-family: Lexend Deca;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+
+
+.botonSedan{
+    width: 130px;
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    color: hsl(31, 77%, 52%);
+    font-family: Lexend Deca;
+}
+
+.botonSedan:hover{
+    transition: 1s;
+    border: solid 2px white;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    font-family: Lexend Deca;
+}
+
+.botonSuvs{
+    width: 130px;
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    color: hsl(184, 100%, 22%);
+    font-family: Lexend Deca;
+}
+
+.botonSuvs:hover{
+    transition: 1s;
+    border: solid 2px white;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    font-family: Lexend Deca;
+}
+
+.botonLuxury{
+    width: 130px;
+    padding: 12px;
+    border-radius: 30px;
+    border: none;
+    color: hsl(179, 100%, 13%);
+    font-family: Lexend Deca;
+}
+
+.botonLuxury:hover{
+    transition: 1s;
+    border: solid 2px white;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    font-family: Lexend Deca;
+}
